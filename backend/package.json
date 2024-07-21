@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "ts-node-dev src/server.ts",
         "build": "tsc",
-        "start": "node src/server.js",
+        "start": "node dist/server.js",
         "test": "jest --coverage",
         "prestart": "ts-node src/models/index.ts"
     },
